@@ -1,0 +1,55 @@
+/* 
+
+*/
+body{
+    font-family: 'roboto';
+}
+a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+nav{
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search-section{
+  
+    display: flex;
+    align-items: center;
+    padding: 0 15px 0 15px;    
+    border:1px solid grey;
+    border-radius:35px;
+    box-shadow: 0px 2px grey;
+}
+.search-section img{
+    background-color: red;
+    padding: 5px;
+    border-radius: 100px;
+}
+.search-section a{
+    margin: 20px 30px; 
+}
+.profile-section{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profile-section img{
+    width: 20px;
+    height: 20px;
+}
+#mini-profile{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin-left: 20px;
+    padding: 10px 15px;    
+    border:1px solid grey;
+    border-radius:35px;
+    box-shadow: 0px 2px grey;
+}
