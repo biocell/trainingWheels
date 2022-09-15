@@ -1,8 +1,7 @@
-/* 
 
-*/
 body{
-    font-family: 'roboto';
+    font-family: 'inter';
+    margin: 0 10px;
 }
 a{
     font-size: 16px;
@@ -12,11 +11,11 @@ a{
 }
 nav{
     display: flex;
-    width:100%;
-    justify-content: space-evenly;
+    width:1330px;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
-    border-bottom:1px #d3d3d3 solid;
 }
 .search-section{
     display: flex;
@@ -39,7 +38,7 @@ nav{
     display: flex;
     gap:20px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .profile-section img{
     width: 15px;
@@ -54,14 +53,43 @@ nav{
     border-radius:35px;
     box-shadow: 0px 2px #d3d3d3;
 }
+.scroll-bar-border{
+    width: 100%;
+    margin-top: 30px;
+    border-top:1px #d3d3d3 solid;
+    border-bottom:1px #d3d3d3 solid;
+
+}
 .scroll-bar{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
+    width:1330px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 12px;
+    align-items: center ;
 }
 .scroll-bar section{
     display: flex;
     flex-direction:column;
     align-items: center;
+}
+.scroll-bar section:first-child{
+    border-bottom: 2px solid #000000;
+    font-weight: bold;
+}
+.filter{
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid #d3d3d3;
+    padding:5px 20px;
+    border-radius:15px;
+    box-shadow: 0px 2px #d3d3d3;
+}
+.filter img{
+    margin-right: 10px;
+
 }
