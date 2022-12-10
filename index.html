@@ -4,27 +4,440 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link rel="stylesheet" href="styles/index.css">
-    
-    <title>product tab</title>
+    <title>Home</title>
 </head>
 <body>
-    <div class="container">
-        <h3 class="sale">Sale</h3>
-        <img class="product-img" src="./images/500.png">
-        <p class="title">Jack Wolfskin Desert windbreaker...</p>
-        <p><span style="font-weight: bold; margin-right:10px;">$229.95 </span><span style="opacity:50%;">Was $229.95 </span><span style="color:red;">20% off</span></p>
-        <ul>
-            <li style="font-style:italic;">Colors Available</li>
-            <li id="yellow"></li>
-            <li id="red"></li>
-            <li id="blue"></li>
-            <li id="black"></li>
-        </ul>
+    <nav>
+        <div class="logo">
+            <img class="scope" src="./images/logo.svg">
+        </div>
+        <div class="search-section">
+            <a href="">Anywhere</a>
+            <img src="./images/Line 2.svg">
+            <a href="">Any week</a>
+            
+            <img src="./images/Line 2.svg">
+            <a href=""style="font-weight:normal;">Add guest</a>
+            <img class="microscope" src="./images/search.svg"style="width:20px; height: 20px;">
+        </div>
+        <div class="profile-section">
+            <a href="">Become a Host</a>
+            <img src="./images/globe.png">
+            <div id="mini-profile">
+                <img src="./images/menu.svg" style="justify-self:flex-start;">
+                <img src="./images/profile.svg" style="width:30px; height: 30px;">
+            </div>
+        </div>
+    </nav>
+    <div class="scroll-bar-border">
+     <div class="scroll-bar">
+        <div class="scroll-bar__boxes">
+        <section>
+            <img src="./images/island.svg" alt="Islands">
+            <p>Islands</p>
+        </section>
+        <section>
+            <img src="./images/beach.svg" alt="beach">
+            <p>Beach</p>
+        </section>
+        <section>
+            <img src="./images/pools.svg" alt="Amazing pools">
+            <p>Amazing pools</p>
+        </section>
+        <section>
+            <img src="./images/surfing.svg" alt="Surfing">
+            <p>Surfing</p>
+        </section>
+        <section>
+            <img src="./images/national parks.svg" alt="National parks">
+            <p>National parks</p>
+        </section>
+        <section>
+            <img src="./images/omg.svg" alt="OMG">
+            <p>OMG!</p>
+        </section>
+        <section>
+            <img src="./images/artic.svg" alt="Arctic">
+            <p>Arctic</p>
+        </section>
+        <section>
+            <img src="./images/bed&breakfast.svg" alt="Bed & breakfast">
+            <p>Bed & breakfasts</p>
+        </section>
+        <section>
+            <img src="./images/design.svg" alt="Design">
+            <p>Design</p>
+        </section>
+        <section>
+            <img src="./images/shared homes.svg" alt="Shared homes">
+            <p>Shared homes</p>
+        </section>
+        <section>
+            <img src="./images/caves.svg" alt="Caves">
+            <p>Caves</p>
+        </section>
+        <section>
+            <img src="./images/design.svg" alt="Design">
+            <p>Design</p>
+        </section>
+        <section>
+            <img src="./images/design.svg" alt="Design">
+            <p>Design</p>
+        </section>
+       
     </div>
-   
-<!--comment-->
+        <img src="./images/Vector.svg" style="border:1px #000000 solid; border-radius:100%;padding:10px;height:6.63px; width:11.52px">
+        <div class="filter">
+            <img src="./images/filter.svg" style="width:20px; height: 20px;">
+            <p>Filters</p>
+        </div>        
+    </div>
+</div>
 
-</body>
+<div class="listings">
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+                <div class="listing-card__favourite"><svg width="34" height="26" viewBox="0 0 34 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32.252 5.86252C31.7545 4.89264 31.0373 4.01374 30.1404 3.27502C29.2429 2.5341 28.1846 1.94531 27.0232 1.54065C25.819 1.11938 24.5273 0.903744 23.2232 0.906272C21.3938 0.906272 19.6088 1.32815 18.0576 2.12502C17.6865 2.31565 17.334 2.52502 17 2.75315C16.666 2.52502 16.3135 2.31565 15.9424 2.12502C14.3912 1.32815 12.6063 0.906272 10.7768 0.906272C9.45938 0.906272 8.18281 1.11877 6.97676 1.54065C5.81152 1.9469 4.76133 2.53127 3.85957 3.27502C2.96151 4.0129 2.24412 4.89201 1.74805 5.86252C1.23223 6.8719 0.96875 7.94377 0.96875 9.0469C0.96875 10.0875 1.22109 11.1719 1.72207 12.275C2.14141 13.1969 2.74258 14.1531 3.51074 15.1188C4.72793 16.6469 6.40156 18.2406 8.47969 19.8563C11.9234 22.5344 15.3338 24.3844 15.4785 24.4594L16.358 24.9344C16.7477 25.1438 17.2486 25.1438 17.6383 24.9344L18.5178 24.4594C18.6625 24.3813 22.0691 22.5344 25.5166 19.8563C27.5947 18.2406 29.2684 16.6469 30.4855 15.1188C31.2537 14.1531 31.8586 13.1969 32.2742 12.275C32.7752 11.1719 33.0275 10.0875 33.0275 9.0469C33.0313 7.94377 32.7678 6.8719 32.252 5.86252ZM17 22.4625C17 22.4625 3.78906 15.3344 3.78906 9.0469C3.78906 5.86252 6.91738 3.28127 10.7768 3.28127C13.4895 3.28127 15.8422 4.55627 17 6.41877C18.1578 4.55627 20.5105 3.28127 23.2232 3.28127C27.0826 3.28127 30.2109 5.86252 30.2109 9.0469C30.2109 15.3344 17 22.4625 17 22.4625Z" fill="black" fill-opacity="0.95"/>
+                    </svg>
+                    </div>
+                </div>
+        </div>
+            <div class="listing-card__rating">
+                <p><strong>Badachro, UK</strong></p>
+                <div class="listing-card__rating-star">
+                    <img src="./images/star.svg"/>
+                    <p>4.71</p>
+                </div>
+            </div>
+            <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+            <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+            <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+        
+    </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+           
+                </div>
+        </div>       
+        <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+        </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+                       </div>
+        </div>  
+        <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+    </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+                    </div>
+        </div>    <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+    </div>
+</div>
+<div class="listings">
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+           
+                </div>
+        </div>
+            <div class="listing-card__rating">
+                <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+                <div class="listing-card__rating-star">
+                    <img src="./images/star.svg"/>
+                    <p>5.0</p>
+                </div>
+            </div>
+            <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+            <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+            <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+        
+    </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+           
+                </div>
+        </div>       
+        <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+        </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+                       </div>
+        </div>  
+        <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+    </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+                    </div>
+        </div>    <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+    </div>
+</div>
+<div class="listings">
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+           
+                </div>
+        </div>
+            <div class="listing-card__rating">
+                <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+                <div class="listing-card__rating-star">
+                    <img src="./images/star.svg"/>
+                    <p>5.0</p>
+                </div>
+            </div>
+            <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+            <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+            <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+        
+    </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+           
+                </div>
+        </div>       
+        <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+        </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+                       </div>
+        </div>  
+        <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+    </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+                    </div>
+        </div>    <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+    </div>
+</div>
+<div class="listings">
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+           
+                </div>
+        </div>
+            <div class="listing-card__rating">
+                <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+                <div class="listing-card__rating-star">
+                    <img src="./images/star.svg"/>
+                    <p>5.0</p>
+                </div>
+            </div>
+            <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+            <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+            <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+        
+    </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+           
+                </div>
+        </div>       
+        <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+        </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+                       </div>
+        </div>  
+        <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+    </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+                    </div>
+        </div>    <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+    </div>
+</div>
+
+<div class="listings">
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+           
+                </div>
+        </div>
+            <div class="listing-card__rating">
+                <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+                <div class="listing-card__rating-star">
+                    <img src="./images/star.svg"/>
+                    <p>5.0</p>
+                </div>
+            </div>
+            <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+            <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+            <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+        
+    </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+           
+                </div>
+        </div>       
+        <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+        </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+                       </div>
+        </div>  
+        <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+    </div>
+    <div class="listing__cards">
+        <div class="listing-card__img">
+            <div class="listing-card__location-img"><img src="./images/badachro.svg"/>
+                    </div>
+        </div>    <div class="listing-card__rating">
+            <p><strong>San Bartolome de Tirjana, Spain</strong></p>
+            <div class="listing-card__rating-star">
+                <img src="./images/star.svg"/>
+                <p>5.0</p>
+            </div>
+        </div>
+        <div class="listing-card__distance"><p>3,100 kilometers away</p></div>
+        <div class="listing-card__date"><p>Jan 30-Feb 6</p></div>
+        <div class="listing-card__price"><p><p id="cost">$731 </p> night</p></div>
+    </div>
+</div></body>
 </html>

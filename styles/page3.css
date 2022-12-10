@@ -1,0 +1,183 @@
+body{
+    font-family: 'Inter', 'Alex Brush';
+    width:100%;
+    margin: auto;
+}
+.background-blk{
+    background-color: #000000;
+    color: #ffffff;
+}
+.heading1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 59.9px;
+line-height: 72px;
+letter-spacing: 0.01em;
+}
+.subheading{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 68px;
+}
+.text-center{
+    text-align: center;
+}
+.hosting__btn{
+    width: 139px;
+height: 50px;
+background: #F7004B;
+border-radius: 5px;
+color:#ffffff;
+}
+.earn__host{
+    width: 325px;
+height: 103px;
+background: #F7F7F7;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding-left: 34px;
+}
+.earn__host1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.9px;
+    color: #878787;
+}
+.cost{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 38.9px;
+line-height: 68px;
+/* identical to box height, or 175% */
+
+text-align: center;
+letter-spacing: -0.05em;
+
+
+}
+.bckgrnd{
+    
+margin-bottom: 130px;
+    width: 1356px;
+height: 543px;
+background: #FF004E;
+border-radius: 25px;
+}
+.bckgrnd p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 45.9px;
+line-height: 49px;
+/* or 107% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+#map{
+    width: 100%;
+    height:498px;
+}
+.bckgrnd button{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16.6px;
+line-height: 20px;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+margin-top: 40px;
+width: 134px;
+height: 48px;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+background-color: #F7004B;
+}
+.aircover__grey{
+    background: #F7F7F7;
+border-radius: 25px;
+}
+.aircover__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.9px;
+    line-height: 49px;
+    /* or 159% */
+    
+    letter-spacing: 0.01em;
+}
+.aircover__btn{
+    font-weight: 400;
+font-size: 16.6px;
+line-height: 20px;
+width: 134px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 5px;
+}
+.question__bckgrnd{
+    background-image:url("/images/pg-img5.svg");
+    height: 764px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    position:relative;
+
+}
+.question__text{
+    font-style: normal;
+font-weight: 600;
+font-size: 45.9px;
+line-height: 49px;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.01em;
+top:20%;
+left:27%;
+position: absolute;
+color: #FFFFFF;
+}
+.question__text button{
+    width: 134px;
+height: 48px;
+margin-top: 20px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+}
+.try-hosting__p{
+    text-align: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.9px;
+line-height: 20px;
+/* or 118% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+}
+.try-hosting button{
+width: 139px;
+height: 50px;
+color:#ffffff;
+background-color: #F7004B;
+border-radius: 5px;
+}
