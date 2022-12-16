@@ -184,3 +184,26 @@ line-height: 25px;
     border-radius:10px;
     background-color: #000000;
 }
+
+/* Portrait */
+@media screen and (max-width: 600px) {
+    body{
+        width:fit-content;
+    }
+    nav{
+        display:none;
+    }
+    .sliders{
+        display:none;
+    }
+    .heading2{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+    }
+    .heading2__arrow{
+        display: none;
+    }
+}
