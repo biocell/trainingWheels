@@ -1,3 +1,116 @@
-
+body{
+    font-family: 'Inter', 'Alex Brush';
+    width:100%;
+    margin: auto;
+}
 .banner{
+    width: 100%;
+    margin: auto;
+}
+
+.underslider{
+    display: flex;
+    flex-grow:2;
+    overflow-x: scroll;
+}
+.underslider p{
+    border: 0.5px solid #B0B0B0;
+border-radius: 20px;
+padding:10px 10px;
+
+}
+.underslider__grey p{
+    background-color: red !important;
+}
+.scroll-bar{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    align-items: center ;
+}
+.grey{
+    color:#656363;
+}
+
+.listing-card__rating{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin:13px 0 4px 0;
+}
+.listing-card__rating p{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+
+}
+.listing-card__rating-star{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listing-card__rating-star img{
+    max-height: 10.75px;
+    max-width: 9.48px;
+    margin-right:4.25px;
+}
+.listing-card__rating-star p{
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+}
+.listing-card__distance{
+    font-size: 15px;
+}
+
+.listing-card__img{
+    display: flex;
+    }
+    .listing-card__location-img{
+       position: relative;
+       min-width: 196px;
+       min-height: 259px;
+       width: 100%;
+    }
+    
+    .listing-card__favourite{
+      position:absolute;
+      top:13px;
+      right:7px;
+    }
+    .location{
+    width: 415px;
+    height: 188px;    
+    background: #FFFFFF;
+    border: 0.8px solid #646464;
+    border-radius: 10px;
+    }
+    .location__time{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 69px;
+    height: 32px;
+    border: 0.5px solid #000000;
+    border-radius: 5px;
+    }
+    .load{
+        display: flex;
+        justify-content: center;
+        margin:160px 0;
+    }
+.load button{
+    width:170px;
+    height:63px;
+    color:#ffffff;
+    font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+    border-radius:10px;
+    background-color: #000000;
 }
